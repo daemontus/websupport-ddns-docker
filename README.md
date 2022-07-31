@@ -14,7 +14,8 @@ WS_USER_ID=123
 
 # The base domain name for which we'll be updating records.
 WS_DOMAIN=XXX
-# The domain name who's IP should be compared to the current IP.
+# The domain name who's IP should be compared to the current IP
+# to determine whether records should be updated.
 # E.g. if we are only updating test.example.com, not example.com,
 # we have to reflect this here.
 WS_CHECK_DOMAIN=XXX
@@ -25,13 +26,13 @@ WS_CHECK_DOMAIN=XXX
 WS_RECORD_ID_1=123
 WS_RECORD_NAME_1=XXX
 
-# You can specify up to 9 records that should be updated.
+# You can specify up to 9 records that should be updated to the current IP.
 WS_RECORD_ID_2=123
 WS_RECORD_NAME_2=XXX
 
 # Finally, you can enter email address that should receive notifications
 # about IP changes. Receiver can be anyone, but sender must be a Gmail
-# address. Also, don't use your account password, use  the"App passwords"
+# address. Also, don't use your account password, use the "App passwords"
 # functionality: https://support.google.com/accounts/answer/185833?hl=en
 # If you omit these three variables, no emails will be sent.
 GMAIL_RECEIVER=XXX
