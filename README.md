@@ -1,6 +1,6 @@
 # Websupport.sk DDNS Docker
 
-This is a simple Python script based on https://github.com/kalikadze/dDNS that periodically updates selected DNS records to the current IP address. Consequently, it can be used as a basis for a dynamic DNS service for a domain managed by Websupport.
+This is a simple Python script based on https://github.com/kalikadze/dDNS that periodically updates selected DNS records to the current IP address. Consequently, it can be used as a basis for a dynamic DNS service for a domain managed at Websupport.
 
 ### Configuration
 
